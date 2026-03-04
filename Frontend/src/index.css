@@ -1,0 +1,32 @@
+/* src/index.css */
+
+@import "tailwindcss";
+
+/* ඔයාගේ custom styles මෙතනට දාන්න (scrollbar, etc.) */
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(15,23,42,0.12);
+  border-radius: 9999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #0f172a;
+  background-color: #f8fafc;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* button gradients වගේ custom ඕන නම් මෙතනට දාන්න */
